@@ -17,4 +17,4 @@ Experienced in leadership roles, including the *Google Developer Student Club* a
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=radical" />
