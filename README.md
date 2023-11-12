@@ -18,6 +18,4 @@ Experienced in leadership roles, including the *Google Developer Student Club* a
 
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=radical" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=radical" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&theme=radical" />
