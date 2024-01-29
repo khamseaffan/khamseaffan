@@ -1,4 +1,6 @@
-# About Me
+# <div align="center"> 👋 About Me</div>
+
+## <div align="center" style="text-align: center;"> ![Profile Views](https://komarev.com/ghpvc/?username=khamseaffan&color=blue)    [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/affankhamse/)</div>
 
 Passionate computer scientist pursuing a **Master's in Computer Science** at [New York University](https://www.nyu.edu/), complementing a *Bachelor's in Computer Engineering* from the [University of Mumbai](https://www.mu.ac.in/). Adept in a diverse range of technologies, from **Java** and **Python** to **React** and **Django**, with hands-on experience in project development, cloud services, and database integration.
 
@@ -18,9 +20,7 @@ Passionate computer scientist pursuing a **Master's in Computer Science** at [Ne
 [![Django](https://img.shields.io/badge/Django-092e20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## GitHub Stats & Trophies
+## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&theme=radical)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=khamseaffan&column=3&margin-w=15&margin-h=15&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
