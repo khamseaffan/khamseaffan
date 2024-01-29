@@ -18,7 +18,9 @@ Passionate computer scientist pursuing a **Master's in Computer Science** at [Ne
 [![Django](https://img.shields.io/badge/Django-092e20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## GitHub Stats
+## GitHub Stats & Trophies
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&theme=radical)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=khamseaffan&column=3&margin-w=15&margin-h=15&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
