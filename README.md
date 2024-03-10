@@ -20,7 +20,17 @@ Passionate computer scientist pursuing a **Master's in Computer Science** at [Ne
 [![Django](https://img.shields.io/badge/Django-092e20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+## Project Highlights
+
+### VibeCheck
+A dynamic web application fostering community interaction through music. Led the integration of Redis Channels and WebSocket for real-time chat, enhancing user engagement. Deployed using AWS and TravisCI, ensuring reliable, continuous integration and deployment. Explore more on [GitHub](https://github.com/yourVibeCheckProjectLink](https://github.com/khamseaffan/Wednesday-Fall2023-Team-1)).
+
+## How to Reach Me
+
+- Email: [khasmeaffan@nyu.edu](mailto:khasmeaffan@nyu.edu)
+
 ## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&theme=radical)
+
