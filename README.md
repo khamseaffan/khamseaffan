@@ -70,8 +70,7 @@ A dynamic web application fostering community interaction through music. Led the
       <td><img src="https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=false&count_private=true&include_all_commits=true&theme=dark#gh-dark-mode-only" /></td>
     </tr>
     <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&theme=radical"/></td>
-      <td><img src="https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=radical"/></td>
+      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&theme=dark#gh-dark-mode-only"/></td>
     </tr>
   </table>
 </div>
