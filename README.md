@@ -126,16 +126,3 @@ Feel free to reach out for collaborations or a quick chat about tech:
 🌐 _Check out my repositories below!_
 
 
-
-
-## GitHub Stats
-
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=khamseaffan&theme=dark" /></td>
-      <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=khamseaffan&theme=dark" /></td>
-    </tr>
-    
-  </table>
-</div>
