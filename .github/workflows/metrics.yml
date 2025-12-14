@@ -1,0 +1,44 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (Optional) Run workflow manually
+  workflow_dispatch:
+  # (Optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Options
+          user: khamseaffan
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/New_York
+          
+          # Tokyo Night Theme Colors
+          config_padding: 0, 8 + 11%
+          # Color references: #1a1b26 (bg), #7aa2f7 (primary), #a9b1d6 (text)
+          config_order: base.header, base.activity+community, base.repositories, lines, traffic
+          
+          # Plugins
+          plugin_lines: yes
+          plugin_traffic: yes
+          plugin_traffic_views: yes
+          
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_limit: 4
+          plugin_languages_sections: most-used
+          
+          # Detailed Stack/Achievements
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
