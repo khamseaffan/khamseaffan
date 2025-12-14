@@ -4,100 +4,78 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/khamseaffan)
 [![Email](https://img.shields.io/badge/Email-khamseaffan%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:khamseaffan@gmail.com)
 
+> **Founding Engineer & Backend Specialist** focused on building high-volume, fault-tolerant distributed systems.
+
 ---
 
 ### 🚀 About Me
 
-I’m a software engineer based in **New York City** (OPT/STEM OPT valid till May 2028).  
-Graduated with a **Master’s in Computer Science from NYU (3.8/4.0 GPA)** and a **Bachelor’s in Computer Engineering from the University of Mumbai**.
+I’m a software engineer based in **New York City** with a **Master’s in Computer Science from NYU (3.8/4.0 GPA)**.
 
-I like designing and building **robust, scalable backend systems** — usually around **Python, Java, FastAPI, Spring Boot, and AWS**.  
-Right now, I’m working as **Founding Engineer & CTO at Novum AI**, building an AI-powered call center assistant that listens, analyzes, and guides sales reps in real time.  
+**Work Authorization:**
+* 🇺🇸 **USA:** F-1 OPT/STEM OPT (Valid until May 2028)
+* 🇬🇧 **UK:** High Potential Individual (HPI) Visa Eligible (No sponsorship required for 2 years)
 
-If I had to describe my engineering philosophy: clean code, strong documentation, and no features without purpose.
+I specialize in the **0-to-1 build phase**: taking complex architectural problems and turning them into scalable, production-grade systems using **Python (FastAPI), Java (Spring Boot), and AWS**.
 
----
-
-### 💡 What I’m Working On
-
-- **Novum AI** – architecting an AI-powered call center platform using **AWS Lambda, DynamoDB, API Gateway, WebSockets**, and **AssemblyAI**  
-  → added encryption, webhook signature verification, rate limiting, and a CI/CD pipeline with AWS SAM.  
-  → reduced latency and added real-time analytics dashboards for live calls.  
-  → monthly infra cost under $100 while supporting concurrent users.
-
-- **Home Store (Microservices E-Commerce)** – built a multi-tenant e-commerce backend using **Spring Boot + Spring Cloud + Docker**  
-  → designed modular microservices (product, cart, order, store), each with its own database and REST API.  
-  → uses **Eureka service discovery** and **API Gateway** for scale.
-
-- **FlashBids** – real-time auction platform that prevents last-second sniping  
-  → used **Flask, Redis Pub/Sub, DynamoDB, WebSockets**  
-  → optimized Redis with connection pooling; reduced latency by 30%.
-
-- **VibeCheck (NYU Project)** – paired users based on Spotify listening data  
-  → backend in **Django + Redis**, deployed on **AWS Elastic Beanstalk** with **Travis CI**, achieved 87% test coverage.
+Currently, I serve as **Founding Engineer at Novum AI**, where I architected the entire backend infrastructure for a real-time AI sales assistant from scratch.
 
 ---
 
-### ⚙️ Core Technical Skills
+### 💡 Featured Projects
 
-| Category | Tools / Tech |
+#### 🎙️ [Novum AI](https://novum-ai.com) (Founding Engineer)
+*Architected an AI-powered call center platform handling real-time audio analysis.*
+- **The Challenge:** Process live audio streams with <1s latency while managing costs.
+- **The Stack:** AWS Lambda, DynamoDB, API Gateway, WebSockets, AssemblyAI.
+- **The Impact:**
+    - Reduced end-to-end latency to **sub-900ms** for live transcription.
+    - Implemented **security hardening** (Webhook signature verification, Rate Limiting).
+    - Optimized infra costs to **<$100/mo** while supporting concurrent users via Serverless architecture.
+
+#### 🛍️ Home Store (Microservices E-Commerce)
+*A multi-tenant e-commerce backend designed for modularity and failure isolation.*
+- **The Architecture:** Decomposed monolith into 4 distinct microservices (Product, Cart, Order, Identity) using **Spring Boot** & **Docker**.
+- **Key Tech:** Eureka Service Discovery, API Gateway, Resilience4j (Circuit Breakers).
+- **Outcome:** Decoupled deployment cycles, allowing independent scaling of the 'Order' service during high-load simulation.
+
+#### ⚡ FlashBids (High-Concurrency Auction Platform)
+*Real-time auction engine designed to prevent "sniping" and race conditions.*
+- **The Tech:** Python (Flask), **Redis Pub/Sub**, WebSockets.
+- **Performance:** Optimized Redis connection pooling to reduce latency by **30%**, ensuring fair bid ordering for 1,000+ concurrent simulated users.
+
+---
+
+### ⚙️ Technical Arsenal
+
+| Domain | Stack |
 |-----------|--------------|
-| **Languages** | Python, Java, TypeScript, JavaScript, C++, SQL |
-| **Frameworks** | FastAPI, Spring Boot, Flask, Django, React |
-| **Cloud & DevOps** | AWS (Lambda, EC2, DynamoDB, S3, SQS, API Gateway, SAM), Docker, Kubernetes, CI/CD (GitHub Actions, TravisCI) |
-| **Databases** | PostgreSQL, MySQL, DynamoDB, MongoDB, Redis |
-| **AI/ML Stack** | LangChain, OpenAI API, Chroma Vector Store |
-| **Concepts** | Distributed Systems, Event-Driven Architecture, Microservices, WebSockets, System Design, Cloud Security |
+| **Languages** | **Python (Expert)**, **Java (Expert)**, TypeScript, C++, SQL, Go (Learning) |
+| **Backend** | FastAPI, Spring Boot, Flask, Django, Node.js |
+| **Cloud & Infra** | AWS (Lambda, DynamoDB, SQS, API Gateway, SAM), Docker, Kubernetes, Terraform |
+| **Data & Storage** | PostgreSQL, Redis, DynamoDB, MongoDB |
+| **AI Engineering** | LangChain, RAG Pipelines, Vector Databases (Chroma), OpenAI API |
 
 ---
 
-### 🧠 How I Work
+### 🧠 Engineering Philosophy
 
-- I prefer **documented, linted, and readable code**.  
-- I always plan architecture before writing functions.  
-- I explain complex ideas with small working examples.  
-- I believe debugging is not just about fixing — it’s about understanding.
-
----
-
-### 🌱 Learning & Interests
-
-- **Go Language** – currently learning it after Microsoft’s TypeScript-compiler rewrite in Go  
-- **Mobile Development** – interested in how mobile + cloud ecosystems are merging  
-- **Security** – I’m that person who adds input validation before the first commit  
+I don't just write code; I design systems.
+- **Production First:** "It works on my machine" is not a valid status. I build with CI/CD and containerization from day one.
+- **Security by Design:** Input validation, RBAC, and rate limiting are not afterthoughts—they are architectural requirements.
+- **Bias for Action:** I prefer shipping a clean MVP and iterating over over-engineering a perfect ghost town.
 
 ---
 
-### 🎯 Career Goals
-
-**Short-term (1-2 years):**
-- Work on distributed, production-scale systems
-- Write production-grade Go code
-- Strengthen cloud-security and system-design skills  
-
-**Long-term (3-5 years):**
-- Lead technical teams as a Senior Engineer / Tech Lead  
-- Architect systems serving millions of users  
-- Mentor upcoming engineers and contribute to open-source  
+### 📊 Engineering Metrics
+<div align="center">
+  <img src="https://github.com/khamseaffan/khamseaffan/blob/main/github-metrics.svg" alt="Affan's GitHub Metrics" width="600">
+</div>
 
 ---
 
-### 📊 GitHub Snapshot
+### 🌐 Connect
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khamseaffan&theme=tokyonight" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&theme=tokyonight" />
-</p>
+I am always open to discussing **distributed systems**, **AI infrastructure**, or **Anime recommendations**.
 
----
-
-### 💬 Fun Side
-
-Outside of code, I read manga (One Piece, Bleach, One Punch Man), play cricket, and love connecting with people from different backgrounds — I was that guy in school who somehow fit into every friend group.
-
----
-
-### 🌐 Explore More
-
-👉 [LinkedIn](https://linkedin.com/in/affan-khamse) • [GitHub](https://github.com/khamseaffan) • [Email](mailto:khamseaffan@gmail.com)
+👉 [LinkedIn](https://linkedin.com/in/affan-khamse) • [Email](mailto:khamseaffan@gmail.com)
