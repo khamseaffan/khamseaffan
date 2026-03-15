@@ -1,4 +1,4 @@
-## 👋 Hey, I’m Affan Arif Khamse
+## 👋 Hey, I'm Affan Arif Khamse
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/affan-khamse)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/khamseaffan)
@@ -10,7 +10,7 @@
 
 ### 🚀 About Me
 
-I’m a software engineer based in **New York City** with a **Master’s in Computer Science from NYU (3.8/4.0 GPA)**.
+I'm a software engineer based in **New York City** with a **Master's in Computer Science from NYU (3.8/4.0 GPA)**.
 
 **Work Authorization:**
 * 🇺🇸 **USA:** F-1 OPT/STEM OPT (Valid until May 2028)
@@ -18,26 +18,29 @@ I’m a software engineer based in **New York City** with a **Master’s in Comp
 
 I specialize in the **0-to-1 build phase**: taking complex architectural problems and turning them into scalable, production-grade systems using **Python (FastAPI), Java (Spring Boot), and AWS**.
 
-Currently, I serve as **Founding Engineer at Novum AI**, where I architected the entire backend infrastructure for a real-time AI sales assistant from scratch.
+Currently serving as **Founding Engineer at Novum AI**, where I architected the entire backend infrastructure for a real-time AI sales assistant from scratch.
+
+Currently **open to Software Engineering roles** — backend, full-stack, or AI systems.
 
 ---
 
 ### 💡 Featured Projects
 
 #### 🎙️ [Novum AI](https://novum-ai.com) (Founding Engineer)
-*Architected an AI-powered call center platform handling real-time audio analysis.*
-- **The Challenge:** Process live audio streams with <1s latency while managing costs.
-- **The Stack:** AWS Lambda, DynamoDB, API Gateway, WebSockets, AssemblyAI.
+*Architected an AI-powered call center platform with real-time suggestion delivery for sales representatives.*
+- **The Challenge:** Deliver context-aware suggestions to sales reps during live calls with minimal latency.
+- **The Stack:** AWS Lambda, DynamoDB, API Gateway, WebSockets, AssemblyAI, Redis.
 - **The Impact:**
-    - Reduced end-to-end latency to **sub-900ms** for live transcription.
-    - Implemented **security hardening** (Webhook signature verification, Rate Limiting).
-    - Optimized infra costs to **<$100/mo** while supporting concurrent users via Serverless architecture.
+    - Reduced end-to-end suggestion latency from **3-4 seconds to under 1.5 seconds** by parallelizing context retrieval and tuning Lambda memory.
+    - Redesigned retrieval pipeline using hierarchical chunking, sparse + dense vector search, and cross-encoder re-ranking.
+    - Implemented **production security hardening** — webhook signature verification, CORS enforcement, rate limiting, multi-tenant RBAC.
+    - Optimized infra costs to **<$100/mo** supporting concurrent users via serverless architecture.
 
 #### 🛍️ Home Store (Microservices E-Commerce)
 *A multi-tenant e-commerce backend designed for modularity and failure isolation.*
-- **The Architecture:** Decomposed monolith into 4 distinct microservices (Product, Cart, Order, Identity) using **Spring Boot** & **Docker**.
+- **The Architecture:** Decomposed into 4 distinct microservices (Product, Cart, Order, Identity) using **Spring Boot** & **Docker**.
 - **Key Tech:** Eureka Service Discovery, API Gateway, Resilience4j (Circuit Breakers).
-- **Outcome:** Decoupled deployment cycles, allowing independent scaling of the 'Order' service during high-load simulation.
+- **Outcome:** Decoupled deployment cycles, allowing independent scaling of the Order service during high-load simulation.
 
 #### ⚡ FlashBids (High-Concurrency Auction Platform)
 *Real-time auction engine designed to prevent "sniping" and race conditions.*
@@ -50,32 +53,49 @@ Currently, I serve as **Founding Engineer at Novum AI**, where I architected the
 
 | Domain | Stack |
 |-----------|--------------|
-| **Languages** | **Python (Expert)**, **Java (Expert)**, TypeScript, C++, SQL, Go (Learning) |
+| **Languages** | **Python (Expert)**, **Java (Expert)**, TypeScript, JavaScript, C++, SQL, Go (Learning) |
 | **Backend** | FastAPI, Spring Boot, Flask, Django, Node.js |
-| **Cloud & Infra** | AWS (Lambda, DynamoDB, SQS, API Gateway, SAM), Docker, Kubernetes, Terraform |
+| **Cloud & Infra** | AWS (Lambda, DynamoDB, SQS, API Gateway, SAM), Docker, Kubernetes |
 | **Data & Storage** | PostgreSQL, Redis, DynamoDB, MongoDB |
-| **AI Engineering** | LangChain, RAG Pipelines, Vector Databases (Chroma), OpenAI API |
+| **AI Engineering** | LangChain, RAG Pipelines, Vector Databases (Chroma), OpenAI API, AWS Bedrock |
 
 ---
 
 ### 🧠 Engineering Philosophy
 
-I don't just write code; I design systems.
 - **Production First:** "It works on my machine" is not a valid status. I build with CI/CD and containerization from day one.
-- **Security by Design:** Input validation, RBAC, and rate limiting are not afterthoughts—they are architectural requirements.
-- **Bias for Action:** I prefer shipping a clean MVP and iterating over over-engineering a perfect ghost town.
+- **Security by Design:** Input validation, RBAC, and rate limiting are not afterthoughts — they are architectural requirements.
+- **Bias for Action:** Ship a clean MVP and iterate on real feedback rather than over-engineer in a vacuum.
 
 ---
 
-### 📊 Engineering Metrics
+### 📊 GitHub Stats
+
 <div align="center">
-  <img src="https://github.com/khamseaffan/khamseaffan/blob/main/github-metrics.svg" alt="Affan's GitHub Metrics" width="600">
+
+<table>
+<tr>
+<td>
+
+![Affan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=khamseaffan&show_icons=true&hide=contribs&hide_border=true&theme=default&include_all_commits=true)
+
+</td>
+<td>
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khamseaffan&layout=compact&langs_count=6&hide_border=true&theme=default)
+
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
 
 ### 🌐 Connect
 
-I am always open to discussing **distributed systems**, **AI infrastructure**, or **Anime recommendations**.
+Open to discussing **distributed systems**, **AI infrastructure**, or **Anime recommendations**.
 
-👉 [LinkedIn](https://linkedin.com/in/affan-khamse) • [Email](mailto:khamseaffan@gmail.com)
+If what I have built looks relevant to what your team is working on — reach out.
+
+👉 [LinkedIn](https://linkedin.com/in/affan-khamse) • [Portfolio](https://khamseaffan.com) • [Email](mailto:khamseaffan@gmail.com)
