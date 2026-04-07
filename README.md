@@ -26,7 +26,7 @@ Currently **open to Software Engineering roles** — backend, full-stack, or AI 
 
 ### 💡 Featured Projects
 
-#### 🎙️ [Novum AI](https://novum-ai.com) (Founding Engineer)
+#### 🎙️ [Novum AI](https://novum-ai.co) (Founding Engineer)
 *Architected an AI-powered call center platform with real-time suggestion delivery for sales representatives.*
 - **The Challenge:** Deliver context-aware suggestions to sales reps during live calls with minimal latency.
 - **The Stack:** AWS Lambda, DynamoDB, API Gateway, WebSockets, AssemblyAI, Redis.
