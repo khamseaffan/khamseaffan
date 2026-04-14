@@ -33,7 +33,7 @@ Software engineer who builds real-time AI systems, retrieval pipelines, and dist
 <tr>
 <td width="50%" valign="top">
 
-### 🎙️ [Novum AI](https://novum-ai.com)
+### 🎙️ [Novum AI](https://novumai.co/)
 **Founding Engineer** · Voice AI Startup
 
 Built the entire backend for a platform that delivers real-time contextual suggestions to sales reps during live calls.
