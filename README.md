@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=200&section=header&text=Affan%20Khamse&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=Software%20Engineer%20%7C%20AI%20Systems%20%7C%20Distributed%20Backends&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=200&section=header&text=Affan%20Khamse&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=AI%20Engineer%20%7C%20Centh%20AI%20%7C%20Production%20Agents&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%"/>
 
 <div align="center">
 
@@ -16,14 +16,14 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+real-time+AI+systems+and+retrieval+pipelines;MS+Computer+Science+%7C+NYU+%7C+3.8+GPA" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+agentic+verification+and+recruiting+pipelines;MS+Computer+Science+%7C+NYU+%7C+3.8+GPA" alt="Typing SVG" />
 </div>
 
 <br/>
 
 ## `> whoami`
 
-Software engineer who builds real-time AI systems, retrieval pipelines, and distributed backends. Previously the founding engineer at a voice AI startup where I owned the full stack, from RAG pipeline design to production AWS infrastructure. I talk to users before writing code, profile before optimizing, and ship before perfecting.
+AI engineer building production agent systems, not demos. Currently at Centh AI (South Park Commons-backed), where I own forward-deployed credentialing and recruiting agents processing 800+ documents and 500+ emails a day. Previously at Novum AI I cut an AI call assistant's suggestion latency from 3.4s to under 1.5s. I talk to users before writing code, profile before optimizing, and ship before perfecting.
 
 <br/>
 
@@ -33,66 +33,67 @@ Software engineer who builds real-time AI systems, retrieval pipelines, and dist
 <tr>
 <td width="50%" valign="top">
 
-### 🎙️ [Novum AI](https://novumai.co/)
-**Founding Engineer** · Voice AI Startup
+### [Centh AI](https://www.centh.ai/)
+**AI Engineer** · South Park Commons-backed
 
-Built the entire backend for a platform that delivers real-time contextual suggestions to sales reps during live calls.
+Forward-deployed across enterprise clients on an agentic credentialing and recruiting stack. The dashboard is configuration; the agents do the work.
 
 **Highlights:**
-- 📉 Suggestion latency: **3.4s → under 1.5s** (62% faster)
-- 🎯 Fact recall: **60-70% → 80-90%** via RAG redesign
-- 💰 Prompt tokens: **4,900 → 1,950** (72% reduction)
-- 🔧 Cross-encoder self-hosted at **$0.001/call** vs Cohere $0.028 (28x cheaper)
+- Documents verified / day: **800+** via parallel Claude Haiku and Mistral agents
+- Recruiting inbox: **500+ emails/day** with a human-feedback loop
+- Candidate engagement agent for clinical test scheduling (TB screenings)
+- Consolidating a GCP Python backend and Next.js TypeScript platform
 
-`Python` `FastAPI` `AWS Lambda` `Pinecone` `Redis` `WebSockets` `React`
+`Claude API` `Mistral` `Python` `GCP` `Next.js` `TypeScript` `PostgreSQL`
 
 </td>
 <td width="50%" valign="top">
 
-### 🛒 [Stoca](https://github.com/khamseaffan/stoca)
-**Solo Developer** · AI-Native Local Commerce
+### [Novum AI](https://novumai.co/)
+**AI Software Engineer** · previously
 
-The AI store manager that replaces an entire team. Store owners go online in 5 minutes and manage everything through conversation.
+Owned the retrieval and generation path for an AI call assistant that surfaces live suggestions mid-conversation.
 
 **Highlights:**
-- 🤖 Claude streaming chat with **16 AI tools** for pricing, inventory, orders, promotions
-- 🔍 Semantic search + pgvector for catalog enrichment
-- 🐍 Python/FastAPI AI service for vision and search
-- 📊 PostHog analytics + Supabase Realtime for live order tracking
+- Suggestion latency: **3.4s → under 1.5s**
+- Prompt tokens: **4,900 → 1,950** (60% reduction)
+- Hierarchical chunking with hybrid dense/sparse search
+- Event-driven AWS SAM services with Redis session auth and multi-tenant RBAC
 
-`Next.js 16` `TypeScript` `Claude AI` `Prisma 7` `Supabase` `FastAPI` `pgvector`
+`Python` `FastAPI` `AWS Lambda` `Pinecone` `Redis` `WebSockets` `React`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ [FlashBids](https://github.com/arsalananwar11/Live-Flash-Auctioning-System)
+### [Stoca](https://github.com/khamseaffan/stoca)
+**Solo Developer** · AI-Native Local Commerce
+
+The AI store manager that replaces an entire team. Store owners go online in 5 minutes and manage everything through conversation.
+
+**Highlights:**
+- Claude streaming chat with **19 tool calls** for pricing, inventory, orders, promotions
+- Semantic search + pgvector for catalog enrichment
+- Python/FastAPI AI service for vision and search
+- PostHog analytics + Supabase Realtime for live order tracking
+
+`Next.js` `TypeScript` `Claude AI` `Supabase` `FastAPI` `pgvector`
+
+</td>
+<td width="50%" valign="top">
+
+### [FlashBids](https://github.com/arsalananwar11/Live-Flash-Auctioning-System)
 **Lead Developer** · Real-Time Auction Platform
 
 Anti-sniping engine with automatic time extensions during live bidding.
 
 **Highlights:**
-- 📊 p95 latency: **800ms → 200ms** (75% drop)
-- 🔌 Found Redis connection bottleneck via profiling (50-80ms per new connection)
-- 🚀 Designed for **1,000+ concurrent users** with Auto Scaling
+- p95 latency: **800ms → 200ms**
+- Found Redis connection bottleneck via profiling (50-80ms per new connection)
+- Designed for **1,000+ concurrent users** with Auto Scaling
 
 `Flask` `Redis` `WebSockets` `AWS EC2` `DynamoDB` `CloudWatch`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔍 InquisAI
-**Technical Lead** · AI Document Q&A
-
-AI assistant for natural-language questions against large document collections. Never launched - taught me that feature creep kills products.
-
-**Highlights:**
-- ⚡ Migrated Flask → FastAPI: **30% latency reduction**
-- 📋 Led Agile dev in 3-person team on Azure DevOps
-- 📚 This failure directly shaped feature discipline at Novum AI
-
-`FastAPI` `LangChain` `OpenAI` `ChromaDB` `AWS`
 
 </td>
 </tr>
