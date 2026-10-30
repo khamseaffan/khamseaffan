@@ -16,14 +16,14 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+agentic+verification+and+recruiting+pipelines;MS+Computer+Science+%7C+NYU+%7C+3.8+GPA" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+production+credentialing+agents;MS+Computer+Science+%7C+NYU+%7C+3.8+GPA" alt="Typing SVG" />
 </div>
 
 <br/>
 
 ## `> whoami`
 
-AI engineer building production agent systems, not demos. Currently at Centh AI (South Park Commons-backed), where I own forward-deployed credentialing and recruiting agents processing 800+ documents and 500+ emails a day. Previously at Novum AI I cut an AI call assistant's suggestion latency from 3.4s to under 1.5s. I talk to users before writing code, profile before optimizing, and ship before perfecting.
+AI Engineer building production agent systems. At Centh AI, a South Park Commons backed startup, I own the credentialing agent. It verifies clinicians against 50+ official sources, approves the documents it can prove, and sends only the unclear cases to a credentialer. Each check went from about 5 minutes to under 30 seconds. Before that, at Novum AI, I cut an AI call assistant's suggestion latency from 3.4s to 1.5s.
 
 <br/>
 
@@ -33,18 +33,18 @@ AI engineer building production agent systems, not demos. Currently at Centh AI 
 <tr>
 <td width="50%" valign="top">
 
-### [Centh AI](https://www.centh.ai/)
-**AI Engineer** · South Park Commons-backed
+### [Centh AI](https://centh.ai)
+**AI Engineer** · South Park Commons backed
 
-Forward-deployed across enterprise clients on an agentic credentialing and recruiting stack. The dashboard is configuration; the agents do the work.
+I own the credentialing system end to end. The agent runs the checks, approves what it can prove, and sends the rest to a credentialer.
 
 **Highlights:**
-- Documents verified / day: **800+** via parallel Claude Haiku and Mistral agents
-- Recruiting inbox: **500+ emails/day** with a human-feedback loop
-- Candidate engagement agent for clinical test scheduling (TB screenings)
-- Consolidating a GCP Python backend and Next.js TypeScript platform
+- **50+ official sources**, each check from **5 min to under 30s**
+- Approves the documents it can prove, and sends only unclear cases to a credentialer
+- JobDiva Chrome extension, **12 pilot users**. Layla drafts, and the user confirms every action
+- **1,000+ documents a week** across 70+ onboardings
 
-`Claude API` `Mistral` `Python` `GCP` `Next.js` `TypeScript` `PostgreSQL`
+`Python` `TypeScript` `Next.js` `Vercel AI SDK` `Gemini` `Google Document AI` `GCP` `PostHog`
 
 </td>
 <td width="50%" valign="top">
@@ -55,12 +55,12 @@ Forward-deployed across enterprise clients on an agentic credentialing and recru
 Owned the retrieval and generation path for an AI call assistant that surfaces live suggestions mid-conversation.
 
 **Highlights:**
-- Suggestion latency: **3.4s → under 1.5s**
-- Prompt tokens: **4,900 → 1,950** (60% reduction)
-- Hierarchical chunking with hybrid dense/sparse search
+- Suggestion latency: **3.4s to 1.5s**
+- Prompt tokens: **4,900 to 1,950** (60% reduction)
+- Hierarchical chunking with hybrid dense and sparse search
 - Event-driven AWS SAM services with Redis session auth and multi-tenant RBAC
 
-`Python` `FastAPI` `AWS Lambda` `Pinecone` `Redis` `WebSockets` `React`
+`Python` `FastAPI` `AWS Lambda` `DynamoDB` `AWS SAM` `AssemblyAI` `Bedrock` `Redis`
 
 </td>
 </tr>
@@ -70,15 +70,14 @@ Owned the retrieval and generation path for an AI call assistant that surfaces l
 ### [Stoca](https://github.com/khamseaffan/stoca)
 **Solo Developer** · AI-Native Local Commerce
 
-The AI store manager that replaces an entire team. Store owners go online in 5 minutes and manage everything through conversation.
+Store owners manage the business through conversation with a Claude-powered assistant.
 
 **Highlights:**
-- Claude streaming chat with **19 tool calls** for pricing, inventory, orders, promotions
-- Semantic search + pgvector for catalog enrichment
-- Python/FastAPI AI service for vision and search
-- PostHog analytics + Supabase Realtime for live order tracking
+- **55 tools** in one conversation: products and inventory, orders, promotions, analytics and store settings
+- Claude Vision, pgvector, and Pexels for product enrichment
+- Python and FastAPI service for vision and search
 
-`Next.js` `TypeScript` `Claude AI` `Supabase` `FastAPI` `pgvector`
+`Next.js` `TypeScript` `Claude API` `Supabase` `FastAPI` `pgvector`
 
 </td>
 <td width="50%" valign="top">
@@ -89,9 +88,9 @@ The AI store manager that replaces an entire team. Store owners go online in 5 m
 Anti-sniping engine with automatic time extensions during live bidding.
 
 **Highlights:**
-- p95 latency: **800ms → 200ms**
-- Found Redis connection bottleneck via profiling (50-80ms per new connection)
-- Designed for **1,000+ concurrent users** with Auto Scaling
+- p95 latency: **800ms to 200ms**
+- Found a Redis connection bottleneck via profiling (50-80ms per new connection)
+- Deployed on AWS EC2 with Auto Scaling and DynamoDB
 
 `Flask` `Redis` `WebSockets` `AWS EC2` `DynamoDB` `CloudWatch`
 
@@ -110,7 +109,7 @@ Anti-sniping engine with automatic time extensions during live bidding.
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 ### Backend & Frameworks
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -123,6 +122,7 @@ Anti-sniping engine with automatic time extensions during live bidding.
 
 ### Cloud & Infrastructure
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
